@@ -37,6 +37,7 @@ class UI(QWidget):
 
         self.label_result.setText("Total Price Is: {}".format(total_price))
 
+
 app = QApplication([])
 window = UI()
 window.show()
